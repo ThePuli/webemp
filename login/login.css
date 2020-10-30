@@ -1,0 +1,21 @@
+html, body { height: 100%; }
+p { font-size: 14px; }
+a { color: black; }
+a:hover { text-decoration: none; color: black; }
+.text-red { color: red; }
+.text-red:hover { color: red; font-weight: 500; text-decoration: none; }
+.btn { border-radius: 0%; }
+.btn:hover { font-weight: 500; }
+.login-box .user-box { position: relative; }
+.login-box .user-box input { width: 100%; padding: 10px 0; font-size: 14px; color: black; margin-bottom: 20px; border: none;
+                             border-bottom: 1px solid black; outline: none; background: transparent; }
+.login-box .user-box label { position: absolute; top:0; left: 0; padding: 10px 0; font-size: 16px; color: black; pointer-events: none;
+                             transition: .5s; }
+.login-box .user-box input:focus ~ label,
+.login-box .user-box input:valid ~ label { top: -20px; left: 0; color: grey; font-size: 12px; }
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
