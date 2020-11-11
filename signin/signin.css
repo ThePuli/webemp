@@ -1,7 +1,9 @@
 html, body { height: 100%; }
 p { font-size: 14px; }
-.text-red { color: red; }
-.text-red:hover { color: red; font-weight: 500; text-decoration: none; }
+a:link, a { text-decoration:none; color: #dc3545; }
+a:hover, a:visited, a:active { text-decoration:none; color: #fff; }
+.text-red { color: #dc3545 !important; }
+.text-red:hover { color: #dc3545 !important; font-weight: 500; text-decoration: none; }
 .btn { border-radius: 0%; }
 .btn:hover { font-weight: 500; }
 .login-box .user-box { position: relative; }
@@ -12,7 +14,7 @@ p { font-size: 14px; }
 .login-box .user-box input:focus ~ label,
 .login-box .user-box input:valid ~ label { top: -20px; left: 0; color: grey; font-size: 12px; }
 .btn-outline-danger { color: #dc3545; }
-.btn-outline-danger:hover { color: white; text-decoration: none; }
+.btn-outline-danger:hover { color: #fff !important; }
 
 @media (min-width: 768px) {
   .bd-placeholder-img-lg {
