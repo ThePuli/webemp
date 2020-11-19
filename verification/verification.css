@@ -1,0 +1,13 @@
+html, body { height: 100%; }
+p { font-size: 14px; }
+a:link, a { text-decoration:none; color: #dc3545; }
+a:hover, a:visited, a:active { text-decoration:none; color: #fff; }
+.h1 { font-weight: bolder; font-size: 55px !important; }
+.text-red { color: #dc3545 !important; }
+.text-red:hover { color: #dc3545 !important; text-decoration: none; cursor: pointer; }
+.text-black { color: black !important; }
+.btn { border-radius: 0%; }
+.btn:hover { font-weight: 500; }
+.login-box .user-box { position: relative; }
+.btn-outline-danger { color: #dc3545 !important; }
+.btn-outline-danger:hover { color: #fff !important; }

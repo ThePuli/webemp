@@ -14,7 +14,7 @@ a:hover, a:visited, a:active { text-decoration:none; color: #fff; }
                              transition: .5s; }
 .login-box .user-box input:focus ~ label,
 .login-box .user-box input:valid ~ label { top: -20px; left: 0; color: grey; font-size: 12px; }
-.btn-outline-danger { color: #dc3545; }
+.btn-outline-danger { color: #dc3545 !important; }
 .btn-outline-danger:hover { color: #fff !important; }
 
 @media (min-width: 768px) {
