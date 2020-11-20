@@ -16,6 +16,16 @@ a:hover, a:visited, a:active { text-decoration:none; color: #fff; }
 .login-box .user-box input:valid ~ label { top: -20px; left: 0; color: grey; font-size: 12px; }
 .btn-outline-danger { color: #dc3545 !important; }
 .btn-outline-danger:hover { color: #fff !important; }
+.width-25 { width: 25%; }
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .width-25 { width: 80% !important; }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .width-25 { width: 80% !important; }
+}
 
 @media (min-width: 768px) {
   .bd-placeholder-img-lg {
