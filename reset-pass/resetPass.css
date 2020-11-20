@@ -1,0 +1,35 @@
+html, body { height: 100%; }
+p { font-size: 14px; }
+a:link, a { text-decoration:none; color: #dc3545; }
+a:hover, a:visited, a:active { text-decoration:none; color: #fff; }
+.h1 { font-weight: bolder; font-size: 55px !important; }
+.text-red { color: #dc3545 !important; }
+.text-red:hover { color: #dc3545 !important; text-decoration: none; cursor: pointer; }
+.text-black { color: black !important; }
+.btn { border-radius: 0%; }
+.btn:hover { font-weight: 500; }
+.login-box .user-box { position: relative; }
+.login-box .user-box input { width: 100%; padding: 10px 0; font-size: 14px; color: black; margin-bottom: 20px; border: none;
+                             border-bottom: 1px solid black; outline: none; background: transparent; }
+.login-box .user-box label { position: absolute; top:0; left: 0; padding: 10px 0; font-size: 16px; color: black; pointer-events: none;
+                             transition: .5s; }
+.login-box .user-box input:focus ~ label,
+.login-box .user-box input:valid ~ label { top: -20px; left: 0; color: grey; font-size: 12px; }
+.btn-outline-danger { color: #dc3545 !important; }
+.btn-outline-danger:hover { color: #fff !important; }
+.width-25 { width: 25%; }
+
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .text .width-25 {
+    width: 80% !important;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .text {
+    width: 80% !important;
+  }
+  .width-25 { width: 80% !important; }
+}
