@@ -9,26 +9,22 @@ a:hover, a:visited, a:active { text-decoration:none; color: #fff; }
 .btn { border-radius: 0%; }
 .btn:hover { font-weight: 500; }
 .login-box .user-box { position: relative; }
-.login-box .user-box input { width: 100%; padding: 10px 0; font-size: 14px; color: black; margin-bottom: 20px; border: none;
-                             border-bottom: 1px solid black; outline: none; background: transparent; }
-.login-box .user-box label { position: absolute; top:0; left: 0; padding: 10px 0; font-size: 16px; color: black; pointer-events: none;
-                             transition: .5s; }
-.login-box .user-box input:focus ~ label,
-.login-box .user-box input:valid ~ label { top: -20px; left: 0; color: grey; font-size: 12px; }
 .btn-outline-danger { color: #dc3545 !important; }
 .btn-outline-danger:hover { color: #fff !important; }
 .width-25 { width: 25%; }
+.cols { display: grid; justify-items: center; align-self: center; background: #ccc; }
+.cols{
+    background: #fff;
+} .cols:focus{
+    background: #ddd;
+    box-shadow: none;
+}
 
 @media only screen and (max-width:800px) {
   /* For tablets: */
-  .text .width-25 {
-    width: 80% !important;
-  }
+  .width-25 { width: 80% !important; }
 }
 @media only screen and (max-width:500px) {
   /* For mobile phones: */
-  .text {
-    width: 80% !important;
-  }
   .width-25 { width: 80% !important; }
 }
