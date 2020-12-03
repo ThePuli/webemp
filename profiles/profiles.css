@@ -1,0 +1,60 @@
+html, body { height: 100%; background-color: #eee; }
+p { font-size: 14px; }
+a:link, a { text-decoration:none; color: #dc3545; }
+a:hover, a:visited, a:active { text-decoration:none; color: #fff; }
+.h1 { font-weight: bolder; font-size: 55px !important; }
+.text-red { color: #dc3545 !important; }
+.text-red:hover { color: #dc3545 !important; text-decoration: none; cursor: pointer; }
+.text-black { color: black !important; }
+.btn { border-radius: 0%; }
+.btn:hover { font-weight: 500; }
+.login-box .user-box { position: relative; }
+.btn-outline-danger { color: #dc3545 !important; }
+.btn-outline-danger:hover { color: #fff !important; }
+.width-25 { width: 25%; }
+.cols { display: grid; justify-items: center; align-self: center; background: #ccc; }
+.cols{ background: #fff; } 
+.cols:focus{ background: #ddd; box-shadow: none; }
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .width-25 { width: 80% !important; }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .width-25 { width: 80% !important; }
+}
+
+.sidebar {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  padding-top: 75px !important;
+  z-index: 1;
+  top: 0;
+  left: -40px;
+  background-color: #ddd;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar, .text-sidebar {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  color: black;
+  display: block;
+  transition: 0.3s;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+  margin-left: 300px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar, .text-sidebar {font-size: 18px;}
+}
